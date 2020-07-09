@@ -37,17 +37,13 @@ public class Paciente extends Persona{
     
     
     public boolean solicitarCita(){
-        System.out.println(this.nombre +" Solicito cita");
-        cita.toString();
+        
         return true;            
     }
 
     @Override
     public String toString() {
-        return "................................Datos del paciente................................" + "\n"+
-                "Nombre: "+this.nombre+"\t"+" Apellido :"+this.apellido+"\n"+
-                "Cedula: "+this.cedula+"\n"+
-                "Direccion: "+this.direccion+"\t"+"email=" + email ;
+        return "";
     }
 
     

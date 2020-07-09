@@ -20,10 +20,6 @@ public class Cita {
     protected Persona persona;
     
     public void RealizarPago(Pago pago,float monto){
-        fecha = new Date();
-        pagada = pago.realizarPago(monto);
-        registradoPor = persona.getNombre();
-        
     }
     
     

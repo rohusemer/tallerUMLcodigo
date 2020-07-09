@@ -9,7 +9,7 @@ package Pagos;
  *
  * @author segur
  */
-public class PagoPayPal {
+public class PagoPayPal implements Pago{
     protected float monto;
     protected String email;
 
@@ -32,6 +32,11 @@ public class PagoPayPal {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public boolean realizarPago(float monto) {
+        return true;
     }
     
     

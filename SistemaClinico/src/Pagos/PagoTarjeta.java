@@ -11,14 +11,14 @@ import java.util.Date;
  *
  * @author segur
  */
-public class PagoTargeta {
+public class PagoTarjeta implements Pago{
     protected float monto;
     protected String numero;
     protected Date expira;
     protected String propietario;
     protected String banco;
 
-    public PagoTargeta(float monto, String numero, Date expira, String propietario, String banco) {
+    public PagoTarjeta(float monto, String numero, Date expira, String propietario, String banco) {
         this.monto = monto;
         this.numero = numero;
         this.expira = expira;
@@ -64,6 +64,11 @@ public class PagoTargeta {
 
     public void setBanco(String banco) {
         this.banco = banco;
+    }
+
+    @Override
+    public boolean realizarPago(float monto) {
+        return true;
     }
     
     

@@ -108,15 +108,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "................................Datos de la Persona................................" + "\n"+
-                "Usuario :" + usuario + "\n"+
-                "Clave :" + clave + "\n"+
-                "Nombre :" + nombre + "\n"+
-                "Apellido :" + apellido + "\n"+ 
-                "Cedula :" + cedula + "\n"+
-                "Direccion :" + direccion + "\n"+ 
-                "Fecha de Nacimiento :" + fechaNac +"\n"+
-                "Rol :" +rol +"\n";
+        return "";
     }
     
     

@@ -9,9 +9,7 @@ package Pagos;
  *
  * @author segur
  */
-public class Pago{
-    public boolean realizarPago(float monto){
-        return true;
-    }
+public interface Pago{
+    public boolean realizarPago(float monto);
     
 }

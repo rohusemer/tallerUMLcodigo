@@ -49,10 +49,7 @@ public class Recetas {
 
     @Override
     public String toString() {
-        return "................................Datos de la Receta................................" + "\n"+
-                "Fecha=" + fecha +"\n"+
-                "Medicinas=" + md +"\n"+
-                "Plan nuttricional=" + pn ;
+        return "";
     }
     
     

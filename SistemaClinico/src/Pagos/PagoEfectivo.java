@@ -9,7 +9,7 @@ package Pagos;
  *
  * @author segur
  */
-public class PagoEfectivo extends Pago{
+public class PagoEfectivo implements Pago{
     protected float monto;
 
     public PagoEfectivo(float monto) {
@@ -18,6 +18,11 @@ public class PagoEfectivo extends Pago{
 
     public float getMonto() {
         return monto;
+    }
+
+    @Override
+    public boolean realizarPago(float monto) {
+        return true;
     }
     
     

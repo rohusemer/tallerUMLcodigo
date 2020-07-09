@@ -56,9 +56,7 @@ public class Doctor extends Persona{
     }
     
     public void imprimirReceta(){
-        for(Recetas receta:rc){
-            System.out.println(receta);
-        }
+       
          
     }
     
@@ -68,10 +66,7 @@ public class Doctor extends Persona{
 
     @Override
     public String toString() {
-        return "................................Datos del Doctor................................" + "\n"+
-                "Nombre: "+this.nombre+"\t"+" Direccio :"+this.direccion+"\n"+
-                "Registro=" + regDoctor +"\n"+
-                "Area medica" + especialidad + '}';
+        return "";
     }
     
     

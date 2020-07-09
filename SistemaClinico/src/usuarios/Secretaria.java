@@ -27,10 +27,6 @@ public class Secretaria extends Persona{
         
     }
     public void agendarCita(){
-        for(Paciente paciente: pacientes){
-            if(paciente.solicitarCita()){
-                
-            }
-        }
+        
     }
 }
